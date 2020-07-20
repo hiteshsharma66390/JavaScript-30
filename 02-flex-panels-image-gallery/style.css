@@ -41,4 +41,7 @@ body{
     .panel p{
         font-size: 0.9em;
     }
+    .panel{
+        height: 40vh;
+    }
 }

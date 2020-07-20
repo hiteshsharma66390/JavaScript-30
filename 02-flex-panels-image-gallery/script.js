@@ -5,4 +5,10 @@ panels.forEach(panel => {
         this.classList.toggle('active-panel');
     });
 });
+for click handling via phone
+panels.forEach(panel => {
+    panel.addEventListener('onclick',function(){
+        this.classList.toggle('active-panel');
+    });
+});
 

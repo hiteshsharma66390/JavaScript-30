@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.panel-container{
+    display: flex;
+    min-height: 100vh;
+}
+.panel{
+    display: flex;
+    flex:1;
+    border: 1px solid black;
+    transition: ease-out 0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active-panel{
+    flex:5;
+}
+.panel1{
+    background-image: url('./images/cycle.jpg');
+}
+.panel2{
+    background-image: url('./images/Hopetoun-falls.jpg');
+}
+.panel3{
+    background-image: url('./images/field.jpg');
+}
+.panel4{
+    background-image: url('./images/mountains.jpg');
+}
+.panel5{
+    background-image: url('./images/Nature-walk-.jpg');
+}
+.panel p{
+    font-size: 2em;
+    color: black;
+    font-style: italic;
+}

@@ -27,7 +27,7 @@ function draw(e){
     else{
         ctx.lineWidth--;
     }
-    hue++;
+    hue+=10;
     if(hue>=360) hue=0;
 }
 
